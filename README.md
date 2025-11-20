@@ -1,1 +1,1 @@
-# BuddyMove.github.io
+# BuddyMove
