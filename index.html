@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuddyMove - Official Website</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to ensure smooth scrolling to anchor link */
+        html { scroll-behavior: smooth; }
+        #features { scroll-margin-top: 5rem; }
+        #terms { scroll-margin-top: 5rem; }
+        #privacy-policy { scroll-margin-top: 5rem; }
+        #study-about { scroll-margin-top: 5rem; }
+        #contact { scroll-margin-top: 5rem; } 
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-sans text-gray-800">
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 bg-white shadow-lg z-10">
+        <div class="max-w-4xl mx-auto flex justify-between items-center p-4">
+            <div class="flex items-center">
+                <!-- BuddyMove Logo SVG -->
+                <svg class="logo-svg" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <!-- The SVG is based on the uploaded image_01e6c2.png (coffee cup with high-fiving people) -->
+                    <path fill="black" d="M496 256c0 13.88-11.19 25.13-25.04 25.13H419.6c-4.43 0-8.83 1.48-12.44 4.39L362.5 330c-5.83 4.58-13.43 7.02-21.36 7.02h-40.38c-8.98 0-16.79-5.91-19.18-14.54l-8.47-32.32c-2.39-9.11-10.74-15.53-20.24-15.53H144.1c-12.83 0-24.96 4.34-34.78 12.38L47.01 364.5c-7.22 5.8-17.51 5.8-24.73 0c-9.82-7.89-21.95-12.38-34.78-12.38H0V281.1c0-13.88-11.19-25.13-25.04-25.13H496zM153.2 249.4c0-5.87-4.75-10.63-10.61-10.63H69.46c-5.86 0-10.61 4.75-10.61 10.63V368c0 5.87 4.75 10.63 10.61 10.63h73.12c5.86 0 10.61-4.75 10.61-10.63V249.4zM451.7 205.8c-2.15-2.03-3.6-5.11-3.6-8.67V61.16c0-4.04-3.28-7.31-7.32-7.31H128.4c-4.04 0-7.32 3.28-7.32 7.31V202.9c0 3.56-1.45 6.64-3.6 8.67c-2.15 2.03-4.99 3.17-8.08 3.17H78.29c-5.4 0-9.8 4.41-9.8 9.81V368c0 5.4 4.4 9.8 9.8 9.8h75.52c5.4 0 9.8-4.4 9.8-9.8V218.8c0-5.4-4.4-9.8-9.8-9.8h-11.43c-3.1 0-5.93-1.14-8.08-3.17z"/>
+                    <path fill="black" d="M375.3 128.3c-2.93-1.22-6.53-1.22-9.46 0L200.7 200c-11.3 4.7-18.7 15.6-18.7 27.6v174.4c0 13.1 10.6 23.7 23.7 23.7h89.8c13.1 0 23.7-10.6 23.7-23.7V227.6c0-12-7.4-22.9-18.7-27.6L365.8 128.3c2.93-1.22 6.53-1.22 9.46 0l174.5 71.7c11.3 4.7 18.7 15.6 18.7 27.6V402c0 13.1-10.6 23.7-23.7 23.7h-89.8c-13.1 0-23.7-10.6-23.7-23.7V227.6c0-12 7.4-22.9 18.7-27.6L375.3 128.3zM402 368c0 5.4-4.4 9.8-9.8 9.8h-75.5c-5.4 0-9.8-4.4-9.8-9.8V218.8c0-5.4 4.4-9.8 9.8-9.8h75.5c5.4 0 9.8 4.4 9.8 9.8V368z"/>
+                    <path fill="black" d="M141.7 414.9H370.3c15.1 0 27.4-12.2 27.4-27.3V187.3c0-15.1-12.3-27.3-27.4-27.3H141.7c-15.1 0-27.4 12.2-27.4 27.3v200.3c0 15.1 12.3 27.3 27.4 27.3z"/>
+                </svg>
+                <!-- Existing App Name -->
+                <h1 class="text-2xl font-bold text-gray-900">BuddyMove</h1>
+            </div>
+            <nav>
+                <!-- Navigation links remain the same -->
+                <a href="#study-about" class="text-gray-600 hover:text-black mx-3">About Study</a>
+                <a href="#features" class="text-gray-600 hover:text-black mx-3">Features</a>
+                <a href="#privacy-policy" class="text-gray-600 hover:text-black mx-3 font-semibold">Privacy Policy</a>
+                <a href="#terms" class="text-gray-600 hover:text-black mx-3">Terms</a>
+                <a href="#contact" class="text-gray-600 hover:text-black mx-3">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section (Dark Background) -->
+    <section class="text-center py-20 bg-gray-900 text-white shadow-xl">
+        <div class="max-w-4xl mx-auto px-4">
+            <!-- Large Logo in Hero Section -->
+            <div class="mb-6">
+                <svg class="w-20 h-20 mx-auto text-white" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="white" d="M496 256c0 13.88-11.19 25.13-25.04 25.13H419.6c-4.43 0-8.83 1.48-12.44 4.39L362.5 330c-5.83 4.58-13.43 7.02-21.36 7.02h-40.38c-8.98 0-16.79-5.91-19.18-14.54l-8.47-32.32c-2.39-9.11-10.74-15.53-20.24-15.53H144.1c-12.83 0-24.96 4.34-34.78 12.38L47.01 364.5c-7.22 5.8-17.51 5.8-24.73 0c-9.82-7.89-21.95-12.38-34.78-12.38H0V281.1c0-13.88-11.19-25.13-25.04-25.13H496zM153.2 249.4c0-5.87-4.75-10.63-10.61-10.63H69.46c-5.86 0-10.61 4.75-10.61 10.63V368c0 5.87 4.75 10.63 10.61 10.63h73.12c5.86 0 10.61-4.75 10.61-10.63V249.4zM451.7 205.8c-2.15-2.03-3.6-5.11-3.6-8.67V61.16c0-4.04-3.28-7.31-7.32-7.31H128.4c-4.04 0-7.32 3.28-7.32 7.31V202.9c0 3.56-1.45 6.64-3.6 8.67c-2.15 2.03-4.99 3.17-8.08 3.17H78.29c-5.4 0-9.8 4.41-9.8 9.81V368c0 5.4 4.4 9.8 9.8 9.8h75.52c5.4 0 9.8-4.4 9.8-9.8V218.8c0-5.4-4.4-9.8-9.8-9.8h-11.43c-3.1 0-5.93-1.14-8.08-3.17z"/>
+                    <path fill="white" d="M375.3 128.3c-2.93-1.22-6.53-1.22-9.46 0L200.7 200c-11.3 4.7-18.7 15.6-18.7 27.6v174.4c0 13.1 10.6 23.7 23.7 23.7h89.8c13.1 0 23.7-10.6 23.7-23.7V227.6c0-12-7.4-22.9-18.7-27.6L365.8 128.3c2.93-1.22 6.53-1.22 9.46 0l174.5 71.7c11.3 4.7 18.7 15.6 18.7 27.6V402c0 13.1-10.6 23.7-23.7 23.7h-89.8c-13.1 0-23.7-10.6-23.7-23.7V227.6c0-12 7.4-22.9 18.7-27.6L375.3 128.3zM402 368c0 5.4-4.4 9.8-9.8 9.8h-75.5c-5.4 0-9.8-4.4-9.8-9.8V218.8c0-5.4 4.4-9.8 9.8-9.8h75.5c5.4 0 9.8 4.4 9.8 9.8V368z"/>
+                    <path fill="white" d="M141.7 414.9H370.3c15.1 0 27.4-12.2 27.4-27.3V187.3c0-15.1-12.3-27.3-27.4-27.3H141.7c-15.1 0-27.4 12.2-27.4 27.3v200.3c0 15.1 12.3 27.3 27.4 27.3z"/>
+                </svg>
+            </div>
+            
+            <h2 class="text-4xl sm:text-5xl font-extrabold mb-4">Reducing Sedentary Behaviour through Social Interactions</h2>
+            <p class="text-xl mb-8 opacity-90">BuddyMove helps you get active by using social invites for walks, coffee, and more, making movement fun and engaging.</p>
+            
+            <!-- Download Button: White BG, Black Text -->
+            <a href="https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_NAME"
+               target="_blank"
+               class="inline-block bg-white text-gray-900 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-gray-100 transition duration-300 transform hover:scale-105">
+                Download Now on Google Play
+            </a>
+            <p class="text-sm mt-4 opacity-70">Requires Android 7.0 or later.</p>
+        </div>
+    </section>
+    
+    <!-- About the Study Section -->
+    <section id="study-about" class="py-16 max-w-4xl mx-auto px-4 bg-white rounded-lg shadow-md">
+        <!-- Changed text-indigo-700 to text-gray-900 -->
+        <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">About this Study</h3>
+        <div class="space-y-6 text-gray-700 p-6">
+            <h4 class="text-xl font-semibold">What is this study about?</h4>
+            <p>
+                This study aims to explore how social interaction can help reduce sedentary behavior in amongst individuals especially those in research institutions. It aligns with the World Health Organization (WHO) 2020 guidelines, which emphasize the importance of reducing sedentary time to prevent cardiovascular disease, diabetes, cancer, and mental health disorders. Relevant studies (e.g., Ekelund et al., 2019, The Lancet) show that prolonged sitting is a major health risk, and even small increases in physical activity can significantly improve health outcomes.
+            </p>
+
+            <h4 class="text-xl font-semibold">Why is it relevant?</h4>
+            <p>
+                Sedentary lifestyles have become more common with modern work patterns and remote working. Reducing sitting time—even by a little—can help improve long-term physical and mental health. By participating, you help us better understand how social invitations, and activity tracking can support healthier habits for researchers which is an understudied group.
+            </p>
+            
+            <h4 class="text-xl font-semibold">What is my contribution as a participant?</h4>
+            <p>
+                As a participant, you belong to an elite group of heroes who help in shaping the future of healthier lifestyles. By participating immensely, you'll help us learn how small actions like inviting a friend for coffee or a short walk can disrupt long hours of sitting that often sneak into our daily routines. Your participation means more than just data; it means pioneering a way for people everywhere to live less sedentary, more connected lives.
+            </p>
+            
+            <p class="text-center font-bold italic mt-6">
+                Thank you for being part of this important journey!
+            </p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 max-w-4xl mx-auto px-4">
+        <!-- Changed text-indigo-700 to text-gray-900 -->
+        <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Key Features</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+            <div class="p-6 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-xl">
+                <!-- Changed text-indigo-500 to text-gray-700 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-700 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <h4 class="text-xl font-semibold mb-2">Social Activity Invites (Walk/Coffee)</h4>
+                <p class="text-gray-600">Send spontaneous invites for a quick walk or a coffee break with nearby users to interrupt sitting periods.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-xl">
+                <!-- Changed text-indigo-500 to text-gray-700 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-700 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17.25v1.006a3.003 3.003 0 00.952 2.025l1.096 1.096a1.2 1.2 0 001.733 0l1.096-1.096a3.003 3.003 0 00.952-2.025V17.25M6 10H3.986c-.446 0-.81.332-.82.748L3 12.25V17.25a2.25 2.25 0 002.25 2.25h13.5A2.25 2.25 0 0021 17.25V12.25l-.166-1.498a.75.75 0 00-.82-.752H18" />
+                </svg>
+                <h4 class="text-xl font-semibold mb-2">Invite and Activity Records</h4>
+                <p class="text-gray-600">Monitor your overall performance with detailed records: Total Steps, Received, Rejected, Accepted, and Sent Invites.</p>
+            </div>
+            <div class="p-6 bg-white rounded-xl shadow-md transition duration-300 hover:shadow-xl">
+                <!-- Changed text-indigo-500 to text-gray-700 -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-gray-700 mx-auto mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.275a1.125 1.125 0 011.239 1.124l-.248 8.715a1.125 1.125 0 01-1.239 1.124H6.782a1.125 1.125 0 01-1.239-1.124l-.248-8.715a1.125 1.125 0 011.239-1.124H17.65zm-2.81 1.25a1.125 1.125 0 00-1.125-1.125h-4.312a1.125 1.125 0 00-1.125 1.125H14.846z" />
+                </svg>
+                <h4 class="text-xl font-semibold mb-2">Pedometer Tracking & Baseline</h4>
+                <p class="text-gray-600">Track your current steps against your Baseline step count to measure progress in the long-term study.</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Privacy Policy Section -->
+    <section id="privacy-policy" class="py-16 bg-white shadow-inner">
+        <div class="max-w-4xl mx-auto px-4">
+            <!-- Changed text-indigo-700 to text-gray-900 -->
+            <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Privacy Policy</h3>
+            <div class="space-y-6 text-gray-700">
+                <p class="text-sm text-center font-medium text-red-600 border border-red-300 p-3 rounded-lg">
+                    ⚠️ **IMPORTANT:** BuddyMove is part of a social behavioural to reduce sedentary behavior, it is not to be a replacement for actual healthy habits. The data collected is handled according to the guidelines of the Daegu Gyeongbuk Institute of Science and Technology Bioethics committee.
+                </p>
+
+                <h4 class="text-xl font-semibold mt-6">1. Information Collection and Use</h4>
+                <p>
+                    This policy is used to inform users regarding our policies with the collection, use, and disclosure of information related to our study.
+                </p>
+                
+                <h5 class="text-lg font-semibold mt-4">Data We Collect:</h5>
+                <ul class="list-disc list-inside ml-6 space-y-1">
+                    <li><strong>Personal Information:</strong> Name, age, gender, occupation (collected through an evaluation form).</li>
+                    <li><strong>Physical Activity Data:</strong> Step count data (manually entered during registration and tracked via the phone's built-in pedometer).</li>
+                    <li><strong>Location Data (Geolocation):</strong> Location is accessed to suggest participants closest to each other for invitation purposes.</li>
+                    <li><strong>Usage Data:</strong> Information on how the app is accessed and used for analytics for our experimental study.</li>
+                </ul>
+                
+                <h5 class="text-lg font-semibold mt-4">Purpose of Data Use:</h5>
+                <p>
+                    We use your information to evaluate our hypothesis, track and show progress over time, provide tailored recommendations, send and receive social invites, and make inferences and future studies recommendations.
+                </p>
+
+                <h4 class="text-xl font-semibold">2. Data Storage and Retention</h4>
+                <p>
+                    We use secure storage mechanisms (such as encrypted Firebase) to store your data. Your data is not shared with third parties except for essential services (e.g., Firebase for analytics) and only when anonymized.
+                </p>
+                <ul class="list-disc list-inside ml-6 space-y-1">
+                    <li><strong>Analysis Data:</strong> Anonymized demographic information, physical activity levels, and app usage statistics are retained for the duration of <strong>3 years</strong>, as per the recommendation of the University's IRB board, after which they will be discarded responsibly.</li>
+                </ul>
+
+                <h4 class="text-xl font-semibold">3. Your Rights and Data Deletion</h4>
+                <p>
+                    You have the right to access, update, or delete your information at any time. You also have the right to **exit this experiment without fault**.
+                </p>
+                <p>
+                    To request the deletion of your information or to withdraw from the study, please contact us via the support email or submit your request through the dedicated form below.
+                </p>
+                <!-- Data Deletion Form Link (Kept Red for Warning) -->
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScGMGCZLIS3zQPS9y7Rqh87upbMRyMQDPtMOJKSQx57dkN9bA/viewform"
+                   target="_blank"
+                   class="inline-block bg-red-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-red-700 transition duration-300">
+                   Request Exit / Account and Data Deletion
+                </a>
+                
+                <h4 class="text-xl font-semibold">4. Permissions Required</h4>
+                <ul class="list-disc list-inside ml-6 space-y-1">
+                    <li>Geolocation: To suggest participants to invite.</li>
+                    <li>Physical Activity Recognition: To read step count from the pedometer.</li>
+                    <li>Location: To enhance activity suggestions.</li>
+                    <li>Internet: To fetch news feed and health-related content and push updates.</li>
+                </ul>
+
+                <h4 class="text-xl font-semibold">5. Contact Us</h4>
+                <p>
+                    If you have any questions or suggestions about our Privacy Policy or the experimental study, do not hesitate to contact us at: <a href="mailto:sid.dgist@gmail.com" class="text-gray-700 hover:text-gray-900 underline">sid.dgist@gmail.com</a>
+                </p>
+                
+                <p class="text-sm text-gray-500 pt-4 text-right">
+                    This policy will run for the duration of the app existence , and is effective as of November 20, 2025].
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Terms of Agreement Section -->
+    <section id="terms" class="py-16 max-w-4xl mx-auto px-4 bg-gray-100 rounded-lg shadow-inner">
+        <!-- Changed text-indigo-700 to text-gray-900 -->
+        <h3 class="text-3xl font-bold text-center mb-8 text-gray-900">Terms of Agreement</h3>
+        <div class="space-y-6 text-gray-700 p-6">
+            <p>
+                By downloading and using our app, you agree to the following terms and conditions. Please read them carefully.
+            </p>
+
+            <h4 class="text-xl font-semibold">1. USE OF THE APP</h4>
+            <p>
+                You agree to use the app for personal, non-commercial purposes. You will not misuse, copy, or modify the app without permission.
+            </p>
+
+            <h4 class="text-xl font-semibold">2. USER RESPONSIBILITIES</h4>
+            <ul class="list-disc list-inside ml-6 space-y-2">
+                <li>Ensure your data input is accurate and honest.</li>
+                <li>Respect the privacy and time of others when sending invites.</li>
+                <li>Do not use the app while operating vehicles or in situations where distraction may cause harm.</li>
+                <li>If reported for harassment or impolite behaviour, we reserve the right to remove you from our study without notice.</li>
+            </ul>
+
+            <h4 class="text-xl font-semibold">3. DISCLAIMER</h4>
+            <p>
+                This app is not a substitute for medical advice. Always consult your healthcare provider before making changes to your physical activity.
+            </p>
+
+            <h4 class="text-xl font-semibold">4. TERMINATION</h4>
+            <p>
+                We reserve the right to suspend or terminate your access if you violate these terms.
+            </p>
+
+            <h4 class="text-xl font-semibold">5. CONTACT US</h4>
+            <p>
+                If you have any questions about these terms or the privacy policy, contact us through our email for correspondence.
+            </p>
+            
+            <p class="text-center font-extrabold text-red-600 pt-4">
+                By clicking continue, you agree to these terms
+            </p>
+        </div>
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-16 max-w-4xl mx-auto px-4 bg-gray-50">
+        <!-- Changed text-indigo-700 to text-gray-900 -->
+        <h3 class="text-3xl font-bold text-center mb-10 text-gray-900">Contact Support</h3>
+        <div class="p-8 bg-white rounded-xl shadow-lg border border-gray-200">
+            <p class="mb-6 text-gray-600">Please fill out the form below. Clicking "Send Message" will open your default email client with your message pre-filled and addressed to our support email.</p>
+            
+            <!-- Using mailto for a backend-less HTML page -->
+            <form action="mailto:sid.dgist@gmail.com" method="POST" enctype="text/plain" class="space-y-4">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Your Name</label>
+                    <input type="text" id="name" name="Name" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-gray-700 focus:border-gray-700">
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Your Email Address</label>
+                    <input type="email" id="email" name="Email" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-gray-700 focus:border-gray-700">
+                </div>
+                <div>
+                    <label for="subject" class="block text-sm font-medium text-gray-700">Subject</label>
+                    <input type="text" id="subject" name="Subject" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-gray-700 focus:border-gray-700">
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                    <textarea id="message" name="Message" rows="5" required class="mt-1 block w-full px-4 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-gray-700 focus:border-gray-700"></textarea>
+                </div>
+                <div>
+                    <!-- Changed bg-indigo-600 to bg-gray-900 and hover to bg-black -->
+                    <button type="submit" class="w-full inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-gray-900 hover:bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 transition duration-150">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer (Already dark, kept as is) -->
+    <footer class="bg-gray-800 text-white p-6 text-center text-sm">
+        <p>&copy; 2025 Taika. All rights reserved.</p>
+        <div class="mt-2">
+            <a href="#privacy-policy" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+            <span class="text-gray-500">|</span>
+            <a href="#contact" class="text-gray-400 hover:text-white mx-2">Contact Support</a>
+        </div>
+    </footer>
+
+</body>
+</html>
